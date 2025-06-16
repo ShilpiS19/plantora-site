@@ -1,1 +1,1 @@
-console.log('Plantora site loaded');
+console.log('Plantora site loaded.');
