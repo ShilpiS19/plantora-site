@@ -1,10 +1,47 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Plantora</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plantora | Personalized Plant Decor</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="icon" type="image/png" href="images/logo.png">
 </head>
 <body>
-<h1>Welcome to Plantora</h1>
-<p>Your personalized plant décor service with maintenance guarantee.</p>
+  <header>
+    <img src="images/logo.png" alt="Plantora Logo" class="logo" />
+    <h1>Green Spaces. Personalized. Maintained.</h1>
+    <p>At Plantora, we style your spaces with handpicked plants and guarantee their long-term care — so you only focus on the beauty.</p>
+    <a href="https://wa.me/917738145441" class="cta-button" target="_blank">Chat with Us on WhatsApp</a>
+  </header>
+
+  <section class="gallery">
+    <h2>Our Work</h2>
+    <div class="gallery-grid">
+      <img src="images/sample1.jpg" alt="Styled corner" />
+      <img src="images/sample2.jpg" alt="Balcony garden" />
+      <img src="images/sample3.jpg" alt="Indoor plantscape" />
+    </div>
+  </section>
+
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #f4fff4; color: #2f4f2f; padding: 2rem; }
+    header { text-align: center; }
+    .logo { height: 80px; }
+    .cta-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    .gallery { margin-top: 3rem; }
+    .gallery-grid { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+    .gallery-grid img { width: 30%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+  </style>
+
 </body>
 </html>
